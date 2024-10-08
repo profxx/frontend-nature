@@ -1,0 +1,67 @@
+.container-central{
+    height: 80vh;
+    width: 100%;
+
+    display: flex;
+}
+.info{
+    height: 100%;
+    width: 50%;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 10px;
+}
+.info h1{
+    font-size: 140px;
+    font-family: "AndoSemibold";
+    color: #47241D;
+}
+.info h5{
+    font-family: Verdana;
+    letter-spacing: .2rem;
+    font-size: 26px;
+}
+.button-set{
+    padding-top: 5%;
+}
+.button-set button{
+    box-shadow: 11px 9px 31px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 11px 9px 31px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 11px 9px 31px 0px rgba(0,0,0,0.75);
+}
+.photo{
+    height: 100%;
+    width: 50%;
+    padding-right: 10%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 700px)
+{
+	.container-central {
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+    .info{
+        height: fit-content;
+        width: 100%;
+        padding: 30px 0 0 0;
+        background-color: white;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info *{
+        text-align: center;
+    }
+    .photo{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+    }
+}

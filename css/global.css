@@ -1,0 +1,17 @@
+body {
+    background-color: #c6d3da;
+
+    display: flex;
+    justify-content: center;
+}
+
+.container-principal{
+    background-color: #fff;
+    height: 100vh;
+    width: 90%;
+}
+
+p {
+    font-family: 'Six Thousand', sans-serif;
+    font-size: 26px;                                            
+}

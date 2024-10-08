@@ -1,0 +1,27 @@
+nav {
+    height: 10vh;
+    width: 100%;
+    padding: 10px 10% 10px 10%;
+
+    display: flex;
+    justify-content: space-between;
+}
+.menu-left{
+    color: #955234;
+
+    display: flex;
+    align-items: center;
+}
+.menu-center{
+    width: 60%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu-right{
+    width: 15%;
+
+    display: flex;
+    justify-content: space-between;
+}
